@@ -21,6 +21,7 @@ conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.2 -c pytorch
 - [Detectron2][d2]
 
 ```
+pip install ninja
 git clone https://github.com/facebookresearch/detectron2.git
 python -m pip install -e detectron2
 ```
